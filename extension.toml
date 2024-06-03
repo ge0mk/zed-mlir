@@ -1,0 +1,11 @@
+id = "mlir"
+name = "MLIR"
+description = "MLIR support."
+version = "0.0.1"
+schema_version = 1
+authors = ["ge0mk"]
+repository = "https://github.com/ge0mk/zed-mlir"
+
+[grammars.mlir]
+repository = "https://github.com/artagnon/tree-sitter-mlir.git"
+commit = "00c32d8562dc957b187da110a3443307962b8da8"
